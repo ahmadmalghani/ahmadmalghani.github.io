@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+        <!--====================  AWESOME ICONS ====================-->
+        <script src="https://kit.fontawesome.com/49051381af.js" crossorigin="anonymous"></script>
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!--==================== Fevicon ====================-->
+        <link rel="icon" type="image/x-icon" href="assets/img/fevicon.png">
+
+        <title>Responsive resume</title>
+    </head>
+    <body>
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Ahmad</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link ">
+                                <i class="uil uil-estate nav__icon"></i> Home
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#profile" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i> Profile
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#education" class="nav__link">
+                                <i class="uil uil-book nav__icon"></i> Education
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i> Skills
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#experience" class="nav__link">
+                                <i class="uil uil-briefcase-alt nav__icon"></i> Experience
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#research" class="nav__link">
+                                <i class="uil uil-credit-card-search nav__icon"></i> Research
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#certificates" class="nav__link">
+                                <i class="uil uil-award-alt nav__icon"></i> Certificates
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main bd-container">
+            <!-- All elements within this div, is generated in PDF -->
+            <div class="resume" id="area-cv">
+                <div class="resume__left">
+                    <!--========== HOME ==========-->
+                    <section class="home" id="home">
+                        <div class="home__container section bd-grid">
+                            <div class="home__data bd-grid">
+                                <img src="assets/img/ahmad-profile.JPG" alt="Muhammad Asad Lal" class="home__img">
+
+                                <h1 class="home__title">Ahmad Hassan</h1>
+                                <h3 class="home__profession">Graphic Designer</h3>
+
+                                <!-- Button to generate and download the pdf. Available for desktop. -->
+                                <div>
+                                    <a download="" href="assets/pdf/Resume.pdf" class="home__button-movil">Download</a>
+                                </div>
+                            </div>
+
+                            <div class="home__adress bd-grid">
+                                <span class="home__information">
+                                    <i class='bx bx-envelope home__icon' ></i> ahmadmalghani@outlook.com
+                                </span>
+
+                                <!-- <span class="home__information">
+                                    <i class='bx bx-phone home__icon' ></i> +92-302-4805522
+                                </span> -->
+
+                                <span class="home__information">
+                                    <i class='bx bx-map home__icon' ></i> Islamabad-Pakistan
+                                </span>
+                            </div>
+                        </div>
+                        <!-- Theme change button -->
+                        <i class='bx bx-moon change-theme' title="Theme" id="theme-button" ></i>
+
+                        <!-- Button to generate and download the pdf. Available for desktop -->
+                        <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button" ></i>
+                    </section>          
+                    
+                    <!--========== SOCIAL ==========-->
+                    <section class="social section">
+                        <h2 class="section-title">SOCIAL</h2>
+
+                        <div class="social__container bd-grid">
+
+                            <a href="https://github.com/ahmadmalghani" target="_blank" rel="noopener noreferrer" class="social__lick">
+                                <i class='bx bxl-github social__icon' ></i> @ahmadmalghani
+                            </a>
+
+                            <!-- <a href="https://twitter.com/iamAsadLal" target="_blank" rel="noopener noreferrer" class="social__lick">
+                                <i class='bx bxl-twitter social__icon' ></i> @iamAsadLal
+                            </a> -->
+
+                            <a href="https://instagram.com/meahm4d" target="_blank" rel="noopener noreferrer" class="social__lick">
+                                <i class='bx bxl-instagram-alt social__icon' ></i> @meahm4d
+                            </a>
+
+                            <a href="https://www.linkedin.com/in/ahmadmalghani/" target="_blank" rel="noopener noreferrer" class="social__lick">
+                                <i class='bx bxl-linkedin-square social__icon' ></i> @ahmadmalghani
+                            </a>
+
+                            
+                            
+                        </div>
+                    </section>
+
+                    <!--========== PROFILE ==========-->
+                    <section class="profile section" id="profile">
+                        <h2 class="section-title">Profile</h2>
+
+                        <p class="profile__description">I’m a dedicated Graphic Designer with advanced certifications and years of experience. My work reflects a strong sense of responsibility and a commitment to high-quality results, blending technical skills with creative insight.</p>
+                    </section>
+                    
+                    <!--========== EDUCATION ==========-->
+                    <section class="education section" id="education">
+                        <h2 class="section-title">Education</h2>
+
+                        <div class="education__container bd-grid">
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">Bachelor of Science</h3>
+                                    <span class="education__studies">Computer Science</span>
+                                    <span class="education__year">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2024 - Continue</span>
+                                </div>
+                            </div>
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">Intermediate</h3>
+                                    <span class="education__studies">Pre-Medical</span>
+                                    <span class="education__year">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2022 - 2024</span>
+                                </div>
+                            </div>
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <!-- <span class="education__line"></span> -->
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">Matriculation</h3>
+                                    <span class="education__studies">Science</span>
+                                    <span class="education__year">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2020 - 2022</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <!--========== SKILLS  ==========-->
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">Skills</h2>
+
+                        <div class="skills__content bd-grid">
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Thumbnails
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Logo Design
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Flyers
+                                </li>
+
+                                
+                            </ul>
+
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Photoshop
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Illustrator
+                                </li>
+
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Canva
+                                </li>
+
+                                
+                            </ul>
+                        </div>
+                    </section>
+
+                </div>
+
+                <div class="resume__right">
+                    <!--========== EXPERIENCE ==========-->
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title">Experience</h2>
+
+                        <!-- <div class="experience__container bd-grid">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Graduate Research Assistant</h3>
+                                    <span class="experience__company">GC University Faisalabad</span>
+                                    <p class="experiecne__description">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2023 - Present</p>
+                                </div>
+                            </div> -->
+
+                        <div class="experience__container bd-grid">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Logo Designing</h3>
+                                    <span class="experience__company">Illustrator</span>
+                                    <p class="experiecne__description">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2020 - Present</p>
+                                </div>
+                            </div>
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <!-- <span class="experience__line"></span> -->
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Ui/Ux Designer</h3>
+                                    <span class="experience__company">Figma - Illustrator</span>
+                                    <p class="experiecne__description">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2020 - 2023</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== RESEARCH INTEREST  ==========-->
+                    <section class="research section" id="research">
+                        <h2 class="section-title">Research Interest</h2>
+
+                        <div class="research__content bd-grid">
+                            <ul class="research__data">
+                                <li class="research__name">
+                                    <span class="research__circle"></span> Machine Learning 
+                                </li>
+
+                                <li class="research__name">
+                                    <span class="research__circle"></span> Image Processing
+                                </li>
+
+                                <li class="research__name last__interest">
+                                    <span class="research__circle"></span> Computer Vision
+                                </li>
+
+                                
+                            </ul>
+
+                            <ul class="research__data">
+                                <li class="research__name">
+                                    <span class="research__circle"></span> Artificial Intelligence 
+                                </li>
+
+                                <li class="research__name">
+                                    <span class="research__circle"></span> Pattern Recognition 
+                                </li>
+
+                                <li class="research__name last__interest">
+                                    <span class="research__circle"></span> Bioinformatics
+                                </li>
+
+                                
+                            </ul>
+                        </div>
+                    </section>
+
+                    <!--========== CERTIFICATES ==========-->
+                    <section class="certificate section" id="certificates">
+                        <h2 class="section-title">Certificates</h2>
+
+                        <div class="certificate__container bd-grid">
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Outstanding Academic Performance</h3>
+                                <p class="certificate__description">From Islamabad Model College for Boys I-10/1, Islamabad</p>
+                            </div>
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Battles of the Brains</h3>
+                                <p class="certificate__description">Certificate Provided by KIPS</p>
+                            </div>
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">National Mathematics Contest</h3>
+                                <p class="certificate__description">Certificate Provided by ICATS</p>
+                            </div>
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Proctor of the Year</h3>
+                                <p class="certificate__description">Certificate Provided by IMCB</p>
+                            </div>
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Best Speaker Award</h3>
+                                <p class="certificate__description">Provided by IMCB</p>
+                            </div>
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">3rd Place Achievement in Table Tennis Championship</h3>
+                                <p class="certificate__description">Certificate Provided by FBISE </p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== REFERENCES ==========-->
+                    <!-- <section class="references section" id="references">
+                        <h2 class="section-title">References</h2>
+
+                        <div class="references__container bd-grid">
+                            <div class="references__content bd-grid">
+                                <span class="references__subtitle">Head of Department CS</span>
+                                <h3 class="references__title">Mr. Ali Raza</h3> 
+                                <ul class="references__contact">
+                                    <li>Email: trytryagain@live.com</li>
+                                    <li>Phone: +92-300-1234567</li>
+                                </ul>
+                            </div>
+
+                            <div class="references__content bd-grid">
+                                <span class="references__subtitle">Head of Department IT</span>
+                                <h3 class="references__title">Mr. Yasir Arafat</h3> 
+                                <ul class="references__contact">
+                                    <li>Email: trytryagain@live.com</li>
+                                    <li>Phone: +92-300-1234567</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section> -->
+
+                    <!--========== LANGUAGES ==========-->
+                    <section class="languages section" id="languages">
+                        <h2 class="section-title">Language</h2>
+
+                        <div class="languages__container">
+                            <ul class="languages__content bd-grid">
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> Urdu
+                                </li>
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> English
+                                </li>
+                                <li class="languages__name last__language">
+                                    <span class="languages__circle"></span> Punjabi
+                                </li>
+                                <li class="languages__name last__language">
+                                    <span class="languages__circle"></span> Saraiki
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    
+                    <!--========== INTERESTS ==========-->
+                    <section class="interests section" id="interests">
+                        <h2 class="section-title">Interests</h2>
+
+                        <div class="interests__container bd-grid">
+                            <div class="interests__content">
+                                <i class='bx bx-headphone interests__icon'></i>
+                                <span class="interests__name">Music</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class='bx bxs-plane-alt interests__icon' ></i>
+                                <span class="interests__name">Travel</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class='bx bxs-car interests__icon'></i>
+                                <span class="interests__name">Automobiles</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class='bx bxs-video-plus interests__icon'></i>
+                                <span class="interests__name">Vlogging</span>
+                            </div>
+
+                        </div>
+                    </section>
+                </div>
+            </div>        
+        </main>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-chevron-up scrolltop__icon'></i>
+        </a>
+        
+
+        <!--========== HTML2PDF ==========-->
+        <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
